@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class inputforclick : MonoBehaviour
 {
-    public float BestScore = 2f ;
+    public float BestScore = 2f;
     public float timer = 0;
     public bool IsGreen;
     public float Delay = 0;
@@ -22,6 +22,7 @@ public class inputforclick : MonoBehaviour
     {
         StartCoroutine(allumeToi());
         IsGreen = false;
+
     }
     private void Update()
     {
@@ -29,9 +30,6 @@ public class inputforclick : MonoBehaviour
         if (IsGreen == true)
         { timer += Time.deltaTime;
         }
-      
-
-        ///////////////////////////////////////////////////////////
 
     
 
