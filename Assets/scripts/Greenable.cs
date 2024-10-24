@@ -26,12 +26,8 @@ public class inputforclick : MonoBehaviour
     }
     private void Update()
     {
-       
         if (IsGreen == true)
-        { timer += Time.deltaTime;
-        }
-
-    
+        { timer += Time.deltaTime; }
 
         /////////////////////////////////////////////////////////////
 
